@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <!--Page icon-->
+        <link rel="icon" href="images\logo.jpg">
+
+        <!--css stylesheet-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <!--bootstrap css-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!--bootstrap jss and jquery-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <!--webpage title-->
+        <title>NewsTimes -Home</title>
+
+    </head>
+
+    <body>
+       <div style="margin: 50px; text-align: justify;"> 
+            <!--collapsible navigation menu-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+                
+                <!--brand name-->
+                <span class="brand">
+                    <a class="navbar-brand h1" style="color: #dc2f02;" href="index.html"><img class="img-fluid" src="images\logo.jpg" style="height: 80px ; width: 100px;"/>&nbsp;&nbsp;NewsTimes</a>
+                </span>
+
+                <!--toggle button-->
+                <button class="navbar-toggler" type="button" data-target="#navigation-menu" data-toggle="collapse"
+                aria-controls="navigation-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--navigation menu-->
+                <div class="collapse navbar-collapse" id="navigation-menu">
+                    <div class="navbar-nav">
+                        <a id="navbar-item" class="nav-item nav-link" href="index.html">Home</a>
+                        <a id="navbar-item" class="nav-item nav-link" href="#headline">Latest</a>
+                        <a id="navbar-item" class="nav-item nav-link" href="#briefs">Briefs</a>
+                    <!--    <a class="nav-item nav-link" href="#">Gallery</a> -->
+                        <a id="navbar-item" class="nav-item nav-link" href="#about-us">About</a>
+                        <a id="navbar-item" class="nav-item nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+
+            </nav>
+
+            <br/><br/>
+
+            <!--jumbotron section-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron">
+                        <h4 class="display-4" id="jumb-head">Stay Updated now with the free latest trending news !</h3>
+                        <hr class="my-4" id="jline"><br/><br/>
+                        <p class="lead" id="jumb-para">Subscribe now to our Youtube Channel and press the bell icon.</p>
+                        <a href="https://youtube.com" target="_blank"><button type="button" class="btn btn-danger">Subscribe</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <br/><br/>
+        </div> 
+        <div class="container" style="text-align: justify;">
+        
+            <!--headline section-->
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <h2 class="text-center" id="headline">HeadLines</h4>
+                    <hr class="my-4" id="hline">
+                </div>
+            </div>
+
+            <br/>
+
+            <!--News Headline cards-->
+            <div class="row mt-5">
+                
+                <div class="card-deck">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" height="100px" src="images\himg1.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">India must get ready for a tougher world</h5>
+                                <h6 class="card-subtitle"> | Opinion |</h6>
+                                <p class="card-text"><br/>India —which had a period of relative international security and benign climate will today have to gear up for a more unstable environment and more hostility.</p>
+                                <a class="btn btn-secondary" href="headline-1.html" target="_blank">Read more</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" height="135px" src="images\himg2.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Bihar floods</h5>
+                                <h6 class="card-subtitle">| ‘Over 10 lakh people affected, 1 lakh+ evacuated’: SDMA |</h6>
+                                <p class="card-text"><br>Floods in Bihar continue to affect several parts of the state. Bihar’s State Disaster Management Authority spoke on the situation.</p>
+                                <a class="btn btn-secondary" href="headline-2.html" target="_blank">Read more</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" height="130px" src="images\himg3.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Delhi: 80% hospital beds unoccupied</h5>
+                                <h6 class="card-subtitle">| CM inaugurates new facility | Covid</h6>
+                                <p class="card-text"><br>Delhi Chief Minister Arvind Kejriwal virtually inaugurated a new hospital in the national capital.</p>
+                                <a class="btn btn-secondary" href="headline-3.html" target="_blank">Read more</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" height="130px" src="images\himg4.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">England vs West Indies Live Score</h5>
+                                <h6 class="card-subtitle">| 3rd Test, Day 2: West Indies 137 for 6 |</h6>
+                                <p class="card-text"><br>Stuart Broad, James Anderson made life difficult for West Indies by striking after Tea.England openers are out....</p>
+                                <a class="btn btn-secondary" href="headline-4.html" target="_blank">Read more</a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+            <div class="row mt-5">
+
+                <div class="card-deck">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" src="images\himg5.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Covid-19 kits</h5>
+                                <h6 class="card-subtitle">| Import licenses for Covid-19 kits of 3 firms cancelled, 16 suspended by DCGI |</h6>
+                                <p class="card-text"><br>India’s drug regulator has cancelled the rapid diagnostic kit import licenses of three firms and suspended that of 16 others</p>
+                                <a class="btn btn-secondary" href="headline-5.html" target="_blank">Read more</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" height="150px" src="images\himg6.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Dil Bechara:</h5>
+                                <h6 class="card-subtitle">| 6 locations from the movie that are worth a visit |</h6>
+                                <p class="card-text">Sushant Singh Rajput and Sanjana Sanghi starrer Dil Bechara is a coming-of-age romantic drama film and it was one of the most anticipated films of this year.</p>
+                                <a class="btn btn-secondary" href="headline-6.html" target="_blank">Read more</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" height="130px" src="images\himg7.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Portable COVID-19 test kit</h5>
+                                <h6 class="card-subtitle">| IIT Kharagpur develops rapid portable COVID-19 test kit at Rs 400 |</h6>
+                                <p class="card-text"><br>Prof. S.Chakraborty and Dr. A.Mondal,IITKGP,came up with the concept of a portable non-invasive rapid detection test for COVID-19.</p>
+                                <a class="btn btn-secondary" href="headline-7.html" target="_blank">Read more</a>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-s-12">
+                        <div class="card">
+                            <img class="card-img-top" height="145px" src="images\himg8.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Congress is gearing up to grill the CEOs of some MNCs</h5>
+                                <h6 class="card-subtitle">— here's how</h6>
+                                <p class="card-text"><br>The CEOs of Apple, Amazon, Facebook, and Google are due to testify in front of Congress on Wednesday in an antitrust hearing.</p>
+                                <a class="btn btn-secondary" href="headline-8.html" target="_blank">Read more</a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+            <br/><br/><br/><br/>
+
+            <!--News Briefs section-->
+            <div class="row mt-5" id="briefs">
+                
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images\bimg1.jpg">
+                </div>
+                
+                <div class="col-md-8">
+                  
+                    <div class="row">
+                       <div class="col-md-12">
+                            <h3>Centre to draw plan for states to follow Delhi’s Covid-19 model</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <p>The Central government will on Monday hold a meeting to chalk out a plan for other states to replicate the ‘Delhi model’ of Covid-19 management, senior government officials said on Saturday.The meeting will be chaired by Union home secretary Ajay Bhalla. A senior official in the Delhi government, who did not wish to be named, said, “The high-level meeting has been called to decide the steps that can be taken to replicate Delhi’s success model in other states that are seeing a surge in Covid-19 cases. Apart from this, the Covid-19 strategy for the coming days in Delhi will also be discussed.”</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                        <button type="button" class="btn btn-light" >
+                            <a id="brief-link" href="brief-1.html">Read More</a>
+                        </button>
+                       </div>
+                   </div>
+
+                </div>
+
+            </div>
+            <br/>
+
+            <div class="row mt-5">
+                
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images\bimg2.jpg">
+                </div>
+                
+                <div class="col-md-8">
+                  
+                    <div class="row">
+                       <div class="col-md-12">
+                            <h3>14-yr-old is Goa’s youngest Covid-19 victim; positive cases rise to 4,686</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <p>Goa recorded six deaths due to Covid-19 in 24 hours including that of a 14-year-old girl who contracted the coronavirus disease while battling an existing lung infection, taking the toll in the state to 34 on Saturday. Expressing anguish over the rising number of fatalities, the opposition parties blamed the Pramod Sawant government for failure to rein in the virus outbreak.</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <button type="button" class="btn btn-light" >
+                                <a id="brief-link" href="brief-2.html">Read More</a>
+                            </button>
+                       </div>
+                   </div>
+
+                </div>
+
+            </div>
+            <br/>
+
+            <div class="row mt-5">
+                
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images\bimg3.jpg">
+                </div>
+                
+                <div class="col-md-8">
+                  
+                    <div class="row">
+                       <div class="col-md-12">
+                            <h3>Pakistan violates ceasefire along LoC in Jammu-Kashmir’s Poonch</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <p>Pakistani troops violated ceasefire for the fifth consecutive day on Saturday by resorting to mortar shelling and firing at forward posts along the Line of Control in Jammu and Kashmir’s Poonch district, officials said.  The Pakistani troops fired from small arms and shelled mortars along the LoC in Mankote sector this evening, they said.</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                        <button type="button" class="btn btn-light" >
+                            <a id="brief-link" href="brief-3.html">Read More</a>
+                        </button>
+                       </div>
+                   </div>
+
+                </div>
+
+            </div>
+            <br/>
+
+            <div class="row mt-5">
+                
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images\bimg4.jpg">
+                </div>
+                
+                <div class="col-md-8">
+                  
+                    <div class="row">
+                       <div class="col-md-12">
+                            <h3>Sonu Sood’s advice to outsiders: ‘Come only if you have nerves of steel, star kids will always have easy access’</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <p>Actor Sonu Sood has weighed in on the ongoing ‘insider-outsider’ debate in Bollywood, saying that star kids will have easier access than those who don’t belong to the film industry. The debate around nepotism in the film industry has been reignited after the death of actor Sushant Singh Rajput, who Sonu described as a very ‘hardworking boy’.</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                        <button type="button" class="btn btn-light" >
+                            <a id="brief-link" href="brief-4.html">Read More</a>
+                        </button>
+                       </div>
+                   </div>
+
+                </div>
+
+            </div>
+            <br/>
+
+            <div class="row mt-5">
+                
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images\bimg5.jpg">
+                </div>
+                
+                <div class="col-md-8">
+                  
+                    <div class="row">
+                       <div class="col-md-12">
+                            <h3>MP Board 12th Result 2020 date and time confirmed, to be announced on July 27 at mpbse.nic.in</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <p>MP Board 12th Result 2020: Madhya Pradesh Board of Secondary Education (MPBSE) will announce the MP Class 12th results on Monday, July 27, on its official website. MPBSE Public Relations )Officer SK Chaurasia confirmed to Hindustan Times that the class 12 result would be announced on July 27 at 3pm.</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                        <button type="button" class="btn btn-light" >
+                            <a id="brief-link" href="brief-5.html">Read More</a>
+                        </button>
+                       </div>
+                   </div>
+
+                </div>
+
+            </div>
+            <br/>
+
+            <div class="row mt-5">
+                
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images\bimg6.jpg">
+                </div>
+                
+                <div class="col-md-8">
+                  
+                    <div class="row">
+                       <div class="col-md-12">
+                            <h3>TRIFED signs MoU with IIT Delhi under govt’s ‘Unnat Bharat Abhiyan’</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <p>The Tribal Cooperative Marketing Development Federation of India (TRIFED) has entered into a partnership with IIT Delhi under the HRD Ministry’s flagship ‘Unnat Bharat Abhiyan’ (UBA) to boost livelihood opportunities and income generation for tribal communities.The UBA connects higher education institutions with villages for the economic and social betterment of rural communities.</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                        <button type="button" class="btn btn-light" >
+                            <a id="brief-link" href="brief-6.html">Read More</a>
+                        </button>
+                       </div>
+                   </div>
+
+                </div>
+
+            </div>
+            <br/>
+
+            <div class="row mt-5">
+                
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images\bimg7.jpg">
+                </div>
+                
+                <div class="col-md-8">
+                  
+                    <div class="row">
+                       <div class="col-md-12">
+                            <h3>Final year students to help in COVID-19 duties in Karnataka</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <p>Karnataka Medical Education Minister Dr Sudhakar has directed officials to utilise final year students for COVID-19 duties as the state government is facing a shortage of staff to achieve the testing targets.Along with direct recruitment, the final year students of lab technician courses, science students of RGUHS and volunteers will be given proper training before being assigned COVID duties.The minister held a meeting with officials in this regard through a video conference.</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                        <button type="button" class="btn btn-light" >
+                            <a id="brief-link" href="brief-7.html">Read More</a>
+                        </button>
+                       </div>
+                   </div>
+
+                </div>
+
+            </div>
+            <br/>
+
+            <div class="row mt-5">
+                
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images\bimg8.jpg">
+                </div>
+                
+                <div class="col-md-8">
+                  
+                    <div class="row">
+                       <div class="col-md-12">
+                            <h3>Shooter Sarnobat keen to train at home despite NRAI order to join camp</h3>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                            <p>International pistol shooter from Maharashtra Rahi Sarnobat is in a spot of bother ever since the National Rifle Association of India (NRAI) has made it mandatory for all those who have qualified for the postponed Tokyo Olympic Games to report for the national camp, commencing at the Dr Karni Singh Ranges from August 1.</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                        <button type="button" class="btn btn-light" >
+                            <a id="brief-link" href="brief-8.html">Read More</a>
+                        </button>
+                       </div>
+                   </div>
+
+                </div>
+
+            </div>
+            <br/><br/><br/><br/><br/><br/><br/>
+        </div>
+
+     <!--About section-->
+    <div class="bg-light" style="margin: 50px; text-align: justify;">
+        
+    <div class="container">
+        <!--heading section-->
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="h3 text-center mt-5" id="about-us">About Us</div>
+                <hr id="hline">
+            </div>
+        </div>
+
+        <!--description section-->
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <p id="about">We, at NewsTimes always strieves to bring you the latest and trending news on hot topics. We are continuously updating with changing times and always trying to bring you the best quality news. Our jounalists and reporters always strieves to bring the best quality news especially curated for you.</p>
+            </div>
+        </div> 
+
+        <!--address and contact no. section-->
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="mt-5">
+                    <h6 class="text-center" id="address-heading">Address</h6>
+                    <hr>
+
+                </div>
+                <div class="address text-center mt-3">
+                    <p>4/B, Block no.2,<br>
+                       Amravati st.,Vilaspur,<br>
+                       Gurgaon,Haryana-112013,<br>
+                       India
+                     </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mt-5">
+                    <h6 class="text-center" id="contact-heading">Contact No.</h6>
+                    <hr>
+                </div>
+                <div class="contact text-center mt-3">
+                    <div>
+                        <div>Phone No.: +917686949993</div>
+                        <div>Tel. No. :  2225-6566</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <br/><br/><br/>
+
+        <!--Contact section form for Query-->
+        <div class="row mt-5" style="margin: 50px;" id="contact">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                 
+                <!--Contact form information-->
+                <div class="h5 mt-5">If you have any query, or you want to contact us, feel free to fill the form :</div>
+
+            <div class="bg-light">    
+                <div class="h3 mt-5 text-center">Contact Form</div>
+                <hr id="hline">
+
+                <!--contact form fields-->    
+                <form class="mt-5">
+
+                    <div class="form-group">
+                        <label id="form-fields">Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label id="form-fields">E-mail</label>
+                        <input type="email" class="form-control" placeholder="Enter Your E-mail address">
+                    </div>
+                    <div class="form-group">
+                        <label id="form-fields">Phone No.</label>
+                        <input type="number" class="form-control" placeholder="Enter Your Contact number">
+                    </div>
+                    <div class="form-group">
+                        <label id="form-fields">Query</label>
+                        <textarea class="form-control"  rows="7" placeholder="Enter Your Query here"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary btn-lg">Submit</button>
+
+                </form>
+            </div>    
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </body>
+
+</html>
